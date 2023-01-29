@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 
-function Example() {
+function PhoneModal() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -11,21 +11,20 @@ function Example() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
+      <Button variant="danger" onClick={handleShow}>
+        Вызвать инженера
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Заказать выезд специалисть</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>Email address</Form.Label>
+              <Form.Label>Ваше имя</Form.Label>
               <Form.Control
-                type="email"
-                placeholder="name@example.com"
+                type="text"
                 autoFocus
               />
             </Form.Group>
@@ -33,17 +32,23 @@ function Example() {
               className="mb-3"
               controlId="exampleForm.ControlTextarea1"
             >
-              <Form.Label>Example textarea</Form.Label>
+              <Form.Label>Ваш номер телефона</Form.Label>
+              <Form.Control
+                type="phone"
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlTextarea1"
+            >
+              <Form.Label>Задайте вопрос</Form.Label>
               <Form.Control as="textarea" rows={3} />
             </Form.Group>
           </Form>
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
+        <Modal.Footer className='d-flex justify-content-center'>
+          <Button variant="danger" onClick={handleClose}>
+            Отправить
           </Button>
         </Modal.Footer>
       </Modal>
@@ -51,4 +56,4 @@ function Example() {
   );
 }
 
-render(<Example />);
+export default PhoneModal;
