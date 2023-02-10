@@ -1,16 +1,9 @@
-.navBar {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  background-color: blue;
-}
 
-.navBar:first-child {
-  justify-self: start;
-}
 
-.navItem {
-  color: white;
+
+.navBrand {
+  background-color: #fff;
+  max-height: 100%;
 }
 
 .navText {
