@@ -1,0 +1,83 @@
+.slideCaption {
+  color: goldenrod;
+  font-size: calc(1rem + 1.5vw);
+  text-transform: uppercase;
+  text-align: left;
+  animation-duration: 2s;
+  animation-name: slideup1;
+}
+
+@keyframes slideup1 {
+  0%,
+  50% {
+    opacity: 0;
+    transform: translatey(-3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translatey(0);
+  }
+}
+
+.slideBody {
+  font-size: calc(1rem + 3vw);
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1em;
+  text-align: left;
+  animation-duration: 4s;
+  animation-name: slideup2;
+}
+
+@keyframes slideup2 {
+  0%,
+  50% {
+    opacity: 0;
+    transform: translatey(-3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translatey(0);
+  }
+}
+
+.slideFooter {
+  font-size: calc(1rem + 0.5vw);
+  text-align: left;
+  animation-duration: 5s;
+  animation-name: slideleft;
+}
+
+@keyframes slideleft {
+  0%,
+  50% {
+    opacity: 0;
+    transform: translatex(-6rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+
+.slideDetails {
+  margin-right: 100%;
+  animation-duration: 6s;
+  animation-name: slideleft2;
+}
+
+@keyframes slideleft2 {
+  0%,
+  50% {
+    opacity: 0;
+    transform: translatex(-6rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
