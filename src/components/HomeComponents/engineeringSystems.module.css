@@ -1,10 +1,11 @@
 .header {
   text-align: center;
-  margin-top: 100px;
+  margin: 100px 0 50px;
+  font-size: 3rem;
 }
 
-.row {
-  margin-bottom: 100px;
+.col {
+  margin-bottom: 25px;
 }
 
 .cardImg {
@@ -15,10 +16,14 @@
 
 .radiatir {
   width: "18rem";
-  padding: 20px;
+  padding: 10px 10px 0px 10px;
   min-height: 328px;
   min-width: 337px;
-  background-image: url("../../../public/sloj-5.png");
   background-color: rgba(17, 100, 175, 0.9);
+  background-size: cover;
   color: aliceblue;
+}
+
+.radiatir:hover {
+  background-color: rgba(5, 64, 116, 0.9);
 }

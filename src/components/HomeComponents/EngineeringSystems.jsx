@@ -8,8 +8,8 @@ export default function EngineeringSystems() {
 
             <h2 className={styles.header}>Монтаж инженерных систем</h2>
             <Row className={styles.row} >
-                <Col>
-                    <Card className={styles.radiatir}>
+                <Col className={styles.col}>
+                    <Card className={styles.radiatir} style={{ backgroundImage: "url(/sloj-5.png)" }}>
                         <Card.Img className={styles.cardImg} variant="top" src="radiatori.png" />
                         <Card.Body>
                             <Card.Title>Радиаторы отопления</Card.Title>
@@ -23,29 +23,82 @@ export default function EngineeringSystems() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col><Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card></Col>
-                <Col><Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card></Col>
+                <Col className={styles.col}>
+                    <Card className={styles.radiatir} style={{ backgroundImage: "url(/sloj-7.png)" }}>
+                        <Card.Img className={styles.cardImg} variant="top" src="vodosnabzhenie.png" />
+                        <Card.Body>
+                            <Card.Title>Водоснабжение</Card.Title>
+                            <Card.Text>
+                                Водоснабжение — один из первых вопросов,
+                                который решается при обустройстве
+                                коммерческого или жилого здания.
+                            </Card.Text>
+                            <Button variant="primary">Подробнее</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className={styles.col}>
+                    <Card className={styles.radiatir} style={{ backgroundImage: "url(/sloj-9.png)" }}>
+                        <Card.Img className={styles.cardImg} variant="top" src="schetchiki.png" />
+                        <Card.Body>
+                            <Card.Title>Счётчики</Card.Title>
+                            <Card.Text>
+                                Законодательство предписывает установку
+                                счетчиков воды в каждой квартире, уже давно
+                                вступил в силу, а сегодня использовать приборы
+                                учета стало еще и выгодным.
+                            </Card.Text>
+                            <Button variant="primary">Подробнее</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
+            <Row className={styles.row} >
+                <Col className={styles.col}>
+                    <Card className={styles.radiatir} style={{ backgroundImage: "url(/sloj-14.png)" }}>
+                        <Card.Img className={styles.cardImg} variant="top" src="trubi.png" />
+                        <Card.Body>
+                            <Card.Title>Трубы и стояки</Card.Title>
+                            <Card.Text>
+                                Коммуникации водоснабжения необходимо менять
+                                при проведении капитального ремонта квартиры
+                                или в случае аварийной ситуации.
+                            </Card.Text>
+                            <Button variant="primary">Подробнее</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className={styles.col}>
+                    <Card className={styles.radiatir} style={{ backgroundImage: "url(/sloj-15.png)" }}>
+                        <Card.Img className={styles.cardImg} variant="top" src="teplie_poli.png" />
+                        <Card.Body>
+                            <Card.Title>Теплые полы</Card.Title>
+                            <Card.Text>
+                                Так называют несколько видов современного
+                                оборудования, предназначенного для подогрева
+                                напольного покрытия снизу и поддержания
+                                необходимого температурного режима в помещении.
+                            </Card.Text>
+                            <Button variant="primary">Подробнее</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className={styles.col}>
+                    <Card className={styles.radiatir} style={{ backgroundImage: "url(/sloj-16.png)" }}>
+                        <Card.Img className={styles.cardImg} variant="top" src="kanalizatsia.png" />
+                        <Card.Body>
+                            <Card.Title>Канализация</Card.Title>
+                            <Card.Text>
+                                Комфортная эксплуатация жилых помещений
+                                невозможна без эффективного отведения
+                                сточных вод.
+                            </Card.Text>
+                            <Button variant="primary">Подробнее</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+
         </Container>
     )
 }
