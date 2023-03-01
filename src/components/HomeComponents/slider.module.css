@@ -7,9 +7,9 @@
   animation-name: slideup1;
 }
 
-.img {
+/* .img {
   background-size: cover;
-}
+} */
 
 @keyframes slideup1 {
   0%,

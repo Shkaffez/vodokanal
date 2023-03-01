@@ -14,7 +14,7 @@
   margin: 10px;
 }
 
-.radiatir {
+.card {
   width: "18rem";
   padding: 10px 10px 0px 10px;
   min-height: 328px;
@@ -24,6 +24,12 @@
   color: aliceblue;
 }
 
-.radiatir:hover {
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
   background-color: rgba(5, 64, 116, 0.9);
 }

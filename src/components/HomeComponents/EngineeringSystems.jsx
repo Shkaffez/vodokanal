@@ -9,9 +9,9 @@ export default function EngineeringSystems() {
             <h2 className={styles.header}>Монтаж инженерных систем</h2>
             <Row className={styles.row} >
                 <Col className={styles.col}>
-                    <Card className={styles.radiatir} style={{ backgroundImage: "url(/sloj-5.png)" }}>
+                    <Card className={styles.card} style={{ backgroundImage: "url(/sloj-5.png)" }}>
                         <Card.Img className={styles.cardImg} variant="top" src="radiatori.png" />
-                        <Card.Body>
+                        <Card.Body className={styles.cardBody}>
                             <Card.Title>Радиаторы отопления</Card.Title>
                             <Card.Text>
                                 Компания «Водоканалсбыт» предлагает
@@ -24,9 +24,9 @@ export default function EngineeringSystems() {
                     </Card>
                 </Col>
                 <Col className={styles.col}>
-                    <Card className={styles.radiatir} style={{ backgroundImage: "url(/sloj-7.png)" }}>
+                    <Card className={styles.card} style={{ backgroundImage: "url(/sloj-7.png)" }}>
                         <Card.Img className={styles.cardImg} variant="top" src="vodosnabzhenie.png" />
-                        <Card.Body>
+                        <Card.Body className={styles.cardBody}>
                             <Card.Title>Водоснабжение</Card.Title>
                             <Card.Text>
                                 Водоснабжение — один из первых вопросов,
@@ -38,9 +38,9 @@ export default function EngineeringSystems() {
                     </Card>
                 </Col>
                 <Col className={styles.col}>
-                    <Card className={styles.radiatir} style={{ backgroundImage: "url(/sloj-9.png)" }}>
+                    <Card className={styles.card} style={{ backgroundImage: "url(/sloj-9.png)" }}>
                         <Card.Img className={styles.cardImg} variant="top" src="schetchiki.png" />
-                        <Card.Body>
+                        <Card.Body className={styles.cardBody}>
                             <Card.Title>Счётчики</Card.Title>
                             <Card.Text>
                                 Законодательство предписывает установку
@@ -55,9 +55,9 @@ export default function EngineeringSystems() {
             </Row>
             <Row className={styles.row} >
                 <Col className={styles.col}>
-                    <Card className={styles.radiatir} style={{ backgroundImage: "url(/sloj-14.png)" }}>
+                    <Card className={styles.card} style={{ backgroundImage: "url(/sloj-14.png)" }}>
                         <Card.Img className={styles.cardImg} variant="top" src="trubi.png" />
-                        <Card.Body>
+                        <Card.Body className={styles.cardBody}>
                             <Card.Title>Трубы и стояки</Card.Title>
                             <Card.Text>
                                 Коммуникации водоснабжения необходимо менять
@@ -69,9 +69,9 @@ export default function EngineeringSystems() {
                     </Card>
                 </Col>
                 <Col className={styles.col}>
-                    <Card className={styles.radiatir} style={{ backgroundImage: "url(/sloj-15.png)" }}>
+                    <Card className={styles.card} style={{ backgroundImage: "url(/sloj-15.png)" }}>
                         <Card.Img className={styles.cardImg} variant="top" src="teplie_poli.png" />
-                        <Card.Body>
+                        <Card.Body className={styles.cardBody}>
                             <Card.Title>Теплые полы</Card.Title>
                             <Card.Text>
                                 Так называют несколько видов современного
@@ -84,9 +84,9 @@ export default function EngineeringSystems() {
                     </Card>
                 </Col>
                 <Col className={styles.col}>
-                    <Card className={styles.radiatir} style={{ backgroundImage: "url(/sloj-16.png)" }}>
+                    <Card className={styles.card} style={{ backgroundImage: "url(/sloj-16.png)" }}>
                         <Card.Img className={styles.cardImg} variant="top" src="kanalizatsia.png" />
-                        <Card.Body>
+                        <Card.Body className={styles.cardBody}>
                             <Card.Title>Канализация</Card.Title>
                             <Card.Text>
                                 Комфортная эксплуатация жилых помещений
