@@ -17,8 +17,10 @@
 .card {
   width: "18rem";
   padding: 10px 10px 0px 10px;
-  min-height: 328px;
-  min-width: 337px;
+  max-height: 360px;
+  max-width: 400px;
+  min-height: 360px;
+  min-width: 400px;
   background-color: rgba(17, 100, 175, 0.9);
   background-size: cover;
   color: aliceblue;

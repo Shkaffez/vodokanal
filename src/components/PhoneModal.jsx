@@ -34,7 +34,7 @@ function PhoneModal() {
             >
               <Form.Label>Ваш номер телефона</Form.Label>
               <Form.Control
-                type="phone"
+                type="tel"
               />
             </Form.Group>
             <Form.Group
